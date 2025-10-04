@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE email = {{inp_email.text}} LIMIT 1;

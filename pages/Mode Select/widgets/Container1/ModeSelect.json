@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 20,
+  "boxShadow": "none",
+  "defaultOptionValue": "player",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "azir66vuna",
+  "label": "",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelTextColor": "#71717a",
+  "labelTextSize": "1.25rem",
+  "labelWidth": "6",
+  "leftColumn": 13,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 11,
+  "mobileRightColumn": 31,
+  "mobileTopRow": 31,
+  "needsErrorInfo": false,
+  "options": [
+    {
+      "label": "A player",
+      "value": "player"
+    },
+    {
+      "label": "The GM",
+      "value": "gm"
+    }
+  ],
+  "originalBottomRow": 23,
+  "originalTopRow": 17,
+  "parentColumnSpace": 44,
+  "parentId": "ep82zw4e6z",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 51,
+  "shouldScrollContents": true,
+  "topRow": 16,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "45753gejt2",
+  "widgetName": "ModeSelect"
+}
