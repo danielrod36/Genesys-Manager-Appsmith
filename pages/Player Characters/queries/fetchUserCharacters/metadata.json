@@ -1,6 +1,6 @@
 {
   "gitSyncId": "68e0625a1572ff335686c0fe_958a465f-962a-4218-b6de-e244579085d3",
-  "id": "Player Characters_fetchCharacters",
+  "id": "Player Characters_fetchUserCharacters",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "name": "fetchCharacters",
+    "name": "fetchUserCharacters",
     "pageId": "Player Characters",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }
