@@ -1,1 +1,17 @@
-SELECT * FROM public."adversaries" LIMIT 10;
+SELECT 
+  c.id,
+  c.name,
+  c.player_email,
+  s.name as species_name,
+  cr.name as career_name,
+  c.characteristics,
+  c.derived_json,
+  c.credits,
+  c.encumbrance_current,
+  c.encumbrance_max,
+  c.created_at
+FROM characters c
+LEFT JOIN species s ON c.species_ref = s.id
+LEFT JOIN careers cr ON c.career_ref = cr.id
+WHERE c.player_email = {{appsmith.store.user_email}}
+ORDER BY c.created_at DESC;

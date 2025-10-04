@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.\"adversaries\" LIMIT 10;",
+      "body": "SELECT \n  c.id,\n  c.name,\n  c.player_email,\n  s.name as species_name,\n  cr.name as career_name,\n  c.characteristics,\n  c.derived_json,\n  c.credits,\n  c.encumbrance_current,\n  c.encumbrance_max,\n  c.created_at\nFROM characters c\nLEFT JOIN species s ON c.species_ref = s.id\nLEFT JOIN careers cr ON c.career_ref = cr.id\nWHERE c.player_email = {{appsmith.store.user_email}}\nORDER BY c.created_at DESC;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,6 +22,11 @@
       "name": "Genesys",
       "pluginId": "postgres-plugin"
     },
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "name": "fetchCharacters",
     "pageId": "Player Characters",
     "runBehaviour": "MANUAL",
