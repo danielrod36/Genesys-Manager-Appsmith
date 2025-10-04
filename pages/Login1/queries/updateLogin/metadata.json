@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE user_auth\n  SET last_login = {{new Date().toISOString()}}\n  WHERE id = {{ this.params.id }};\n",
+      "body": "UPDATE users \nSET last_login = NOW() \nWHERE id = {{ this.params.id }};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,7 +22,11 @@
       "name": "Sample Database",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "name": "updateLogin",
     "pageId": "Login1",
     "runBehaviour": "MANUAL",
