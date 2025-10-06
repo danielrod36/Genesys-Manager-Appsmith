@@ -4,7 +4,7 @@ export default {
     storeValue('user_mode', ModeSelect.options);
     
     // Navigate based on selection
-    if (ModeSelect.options === 'player') {
+    if (ModeSelect.selectedOptionValue === 'player') {
       navigateTo('Player Characters');
     } else {
       navigateTo('GM Dashboard');

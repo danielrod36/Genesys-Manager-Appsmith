@@ -1,23 +1,24 @@
 {
-  "gitSyncId": "68e0625a1572ff335686c0fe_1f104a4c-d012-4a67-857d-18394527d7df",
+  "gitSyncId": "68e0625a1572ff335686c0fe_1e38af24-de58-490d-859f-1e7f63f84763",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 840,
+          "bottomRow": 770,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1110,
+          "minHeight": 1292,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1224,
+          "rightColumn": 4896,
           "snapColumns": 64,
-          "snapRows": 109,
+          "snapRows": 124,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "Player Characters",
-    "slug": "player-characters"
+    "name": "Login",
+    "slug": "login"
   }
 }

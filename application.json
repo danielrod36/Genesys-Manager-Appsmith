@@ -1,7 +1,7 @@
 {
   "appIsExample": false,
   "appLayout": {
-    "type": "DESKTOP"
+    "type": "MOBILE"
   },
   "applicationDetail": {
     "navigationSetting": {
@@ -27,7 +27,7 @@
   "icon": "alien",
   "pages": [
     {
-      "id": "Login1",
+      "id": "Login",
       "isDefault": true
     },
     {
@@ -40,7 +40,7 @@
     }
   ],
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "MOBILE"
   },
   "unpublishedApplicationDetail": {
     "navigationSetting": {

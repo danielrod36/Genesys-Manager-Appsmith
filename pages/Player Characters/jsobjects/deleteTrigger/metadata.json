@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68e110fdb463bf1f5806174c_686a6768-074a-4f16-b037-6d571a0b3cae",
+  "id": "Player Characters_deleteTrigger",
+  "unpublishedCollection": {
+    "name": "deleteTrigger",
+    "pageId": "Player Characters",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
